@@ -1,0 +1,55 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	position:relative;
+	top:-8px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.navbar-toggle {
+	background-color: #e6e6e6;
+}
+
+.navbar-header {
+	display: inline-block;
+}
+
+#nav-list{
+	position:relative;
+	top:5px;
+	font-size:1.2em;
+	font-weight: bold;
+}
+
+#nav-list li:hover {
+	background-color: #3CA2A2;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+article {
+	background-color: #dcf5f4;
+	margin-bottom: 20px;
+	padding:10px;
+}
+
+@media (max-width:  768px) {
+	ul li {
+		background-color: #e6e6e6;
+	}
+	#collapsable-nav {
+		overflow: hidden;
+		text-align:center;
+	}
+	.navbar-toggle {
+		position: relative;
+
+	}
+}
